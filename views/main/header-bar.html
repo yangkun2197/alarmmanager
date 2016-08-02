@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>地图顶部菜单栏</title>
+		<link href="../../lib/sui/css/sm.css" rel="stylesheet" />
+		<link href="../../lib/sui/css/ali-iconfont.css" rel="stylesheet" />
+		<link href="../../css/custom.css" rel="stylesheet" />
+		<link href="../../css/views-main-header-bar.css" rel="stylesheet" />
+		<link href="../../css/skin-blue.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="page">
+			<header class="bar bar-nav">
+				<a class="icon icon-my1 pull-left" id="myindex"></a>
+				<a class="icon icon-comment pull-right" id="message"><span class="msg-badge" ></span></a>
+
+				<!--<h1 class="title">标题</h1>-->
+				<!--<div class="msui-search">
+					<input type="text" placeholder="搜索楼宇/设备">
+				</div>-->
+				<div class="search-input">
+					<label class="icon icon-search" for="search"></label>
+					<input type="search" readonly="readonly" id='searchKey' placeholder='搜索楼宇/设备' />
+				</div>
+			</header>
+		</div>
+
+		<script src="../../lib/zepto/zepto.js"></script>
+		<script src="../../lib/sui/js/sm.js"></script>
+		<script src="../../js/conf.js"></script>
+		<script src="../../lib/mui/js/mui.js"></script>
+		<script src="../../js/controller/main-header-bar.js"></script>
+	</body>
+
+</html>

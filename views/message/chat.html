@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>聊天窗口</title>
+		<link href="../../lib/sui/css/sm.css" rel="stylesheet" />
+		<link href="../../lib/sui/css/ali-iconfont.css" rel="stylesheet" />
+		<link href="../../css/custom.css" rel="stylesheet" />
+		<link href="../../css/views-message-chat.css" rel="stylesheet" />
+		<link href="../../css/skin-blue.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="page">
+			<header class="bar bar-nav">
+				<a class="mui-action-back icon  icon-back pull-left"></a>
+				<a class="icon  icon-check pull-right" id="resolve"></a>
+				<a class="icon  icon-profile pull-right" id="address">&nbsp;</a>
+				<h1 class="title">王小明</h1>
+			</header>
+			<!-- 这里是页面内容区 -->
+			<div class="content native-scroll infinite-scroll widget-container chat" data-distance="50" data-ptr-distance="50" id="page-content">
+				<div class="card">
+					<div class="card-header">
+						<span><i class="icon icon-time"></i><small>&nbsp;2015/02/15 15:00</small></span>
+					<!--	<a href="#"><small>未解决</small></a>-->
+					</div>
+					<div class="card-content">
+						<div class="card-content-inner">
+							<p>韬奋楼东侧电表有故障</p>
+							<p>
+								<span class="mlabel mlabel-danger">严重</span>
+							</p>
+							<p>
+								<img style="width: 90%;" src="../../images/file/peidianxiang.jpg" alt="">
+							</p>
+							<p><i class="icon icon-location"></i>&nbsp;韬奋楼1楼114室</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="widget-content">
+					<ul>
+						<li>
+							<img width="30" height="30" src="../../images/user/user.jpg" />
+							<div class="bubble">
+								<!--<a class="user-name" href="#">兰若</a>-->
+								<p class="message">
+									韬奋楼2楼202室没电啦
+								</p>
+								<p class="time">
+									<strong>今天 </strong>3:53 pm
+								</p>
+							</div>
+						</li>
+						<li class="current-user">
+							<img width="30" height="30" src="../../images/user/sub-user.jpg" />
+							<div class="bubble">
+								<!--<a class="user-name" href="#">王晓</a>-->
+								<p class="message">
+									好的，能说下具体情况吗 
+									<div class="clearfix"></div>
+								</p>
+								<p class="time">
+									<strong>今天 </strong>3:53 pm
+								</p>
+							</div>
+						</li>
+
+						<li class="current-user">
+							<img width="30" height="30" src="../../images/user/sub-user.jpg" />
+							<div class="bubble">
+
+								<p class="message">
+									今天学校放假了吗
+								</p>
+								<p class="time">
+									<strong>今天 </strong>3:53 pm
+								</p>
+							</div>
+						</li>
+						<li>
+							<img width="30" height="30" src="../../images/user/user.jpg" />
+							<div class="bubble">
+
+								<p class="message">
+									过年好啊
+								</p>
+								<p class="time">
+									<strong>今天 </strong>3:53 pm
+								</p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="clearfix"></div>
+				<!-- 加载提示符 -->
+				<!--<div class="infinite-scroll-preloader">
+					<div class="preloader"></div>
+				</div>-->
+				<div class="clearfix"></div>
+			</div>
+			<!--<div class="post-message">
+					<input class="form-control" placeholder="输入需要发送的信息…" type="text">
+					<input type="submit" value="发送">
+				</div>-->
+
+			<div class="bar bar-footer">
+				<input placeholder="输入需要发送的信息…" type="text">
+				<a href="#" class="icon  icon-pic pull-right"></a>
+				<a href="#" class="icon  icon-emoji pull-right">&nbsp;</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<script src="../../lib/zepto/zepto.js"></script>
+		<script src="../../lib/zepto/zepto-data.js"></script>
+		<script src="../../lib/zepto/zepto-touch.js"></script>
+		<script src="../../lib/zepto/zepto-fx.js"></script>
+		<script src="../../lib/sui/js/sm.js"></script>
+		<script src="../../js/conf.js"></script>
+		<script src="../../lib/mui/js/mui.js"></script>
+		<script src="../../js/controller/message-chat.js"></script>
+	</body>
+
+</html>

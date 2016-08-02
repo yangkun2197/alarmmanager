@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>消息中心</title>
+		<link href="../../lib/sui/css/sm.css" rel="stylesheet" />
+		<link href="../../lib/sui/css/ali-iconfont.css" rel="stylesheet" />
+		<link href="../../css/custom.css" rel="stylesheet" />
+		<link href="../../css/views-message-index.css" rel="stylesheet" />
+		<link href="../../css/skin-blue.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="page">
+			<header class="bar bar-nav">
+				<a class="mui-action-back icon icon-back pull-left"></a>
+				<a class="icon icon-add pull-right" id="addresslist"></a>
+				<h1 class="title">消息</h1>
+			</header>
+			<!-- 这里是页面内容区 -->
+			<div class="content native-scroll infinite-scroll pull-to-refresh-content" data-distance="50" data-ptr-distance="50" id="page-content">
+				<!-- 默认的下拉刷新层 -->
+				<div class="pull-to-refresh-layer">
+					<div class="preloader"></div>
+					<div class="pull-to-refresh-arrow"></div>
+				</div>
+				<div class="list-block media-list messages sui-swipe-list" id="list-messages">
+					<div class="text-center" style="padding-top: 30px;display: none" id="list-placeholder">
+						<p>没有新消息</p>
+					</div>
+					<ul>
+						<li id="msg_{{MessageId}}" class="sui-swipe-li message-item" data-MessageType="{{MessageType}}" data-MessageSourceId="{{MessageSourceId}}" data-MessageId="{{MessageId}}">
+							<div class="sui-swipe-right">
+								<a class="swipe-remove">删除</a>
+							</div>
+							<div class="item-content item-link">
+								<div class="item-media"><img src="../../images/user/user.jpg"></div>
+								<div class="item-inner">
+									<div class="item-subtitle"><strong>小明:</strong></div>
+									<div class="item-text">那个电路修好了吗&nbsp;|&nbsp;9天前</div>
+								</div>
+								<!--<div class="item-media"><img src="../../images/user/user.jpg" style='width: 2.2rem;'> </div>-->
+							</div>
+						</li>
+						<li id="msg_{{MessageId}}" class="sui-swipe-li message-item" data-MessageType="{{MessageType}}" data-MessageSourceId="{{MessageSourceId}}" data-MessageId="{{MessageId}}">
+							<div class="sui-swipe-right">
+								<a class="swipe-remove">删除</a>
+							</div>
+							<div class="item-content  item-link">
+							<div class="item-media"><img src="../../images/user/user.jpg"> </div>
+								<div class="item-inner">
+									<div class="item-subtitle"><strong>小王:</strong></div>
+									<div class="item-text">那个电路修好了吗&nbsp;|&nbsp;9天前</div>
+								</div>
+								<!--<div class="item-media"></div>-->
+							</div>
+						</li>
+						<li id="msg_{{MessageId}}" class="sui-swipe-li message-item" data-MessageType="{{MessageType}}" data-MessageSourceId="{{MessageSourceId}}" data-MessageId="{{MessageId}}">
+							<div class="sui-swipe-right">
+								<a class="swipe-remove">删除</a>
+							</div>
+							<div class="item-content  item-link">
+							<div class="item-media"><img src="../../images/user/user.jpg"> </div>
+								<div class="item-inner">
+									<div class="item-subtitle"><strong>小花:</strong></div>
+									<div class="item-text">那个电路修好了吗&nbsp;|&nbsp;9天前</div>
+								</div>
+								<!--<div class="item-media"><img src="../../images/user/user.jpg" style='width: 2.2rem;'> </div>-->
+							</div>
+						</li>
+						<li id="msg_{{MessageId}}" class="sui-swipe-li message-item" data-MessageType="{{MessageType}}" data-MessageSourceId="{{MessageSourceId}}" data-MessageId="{{MessageId}}">
+							<div class="sui-swipe-right">
+								<a class="swipe-remove">删除</a>
+							</div>
+							<div class="item-content  item-link">
+							<div class="item-media"><img src="../../images/user/user.jpg"> </div>
+								<div class="item-inner">
+									<div class="item-subtitle"><strong>小花:</strong></div>
+									<div class="item-text">那个电路修好了吗&nbsp;|&nbsp;9天前</div>
+								</div>
+								<!--<div class="item-media"><img src="../../images/user/user.jpg" style='width: 2.2rem;'> </div>-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<!-- 加载提示符 -->
+				<div class="infinite-scroll-preloader">
+					<div class="preloader"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<script src="../../lib/zepto/zepto.js"></script>
+		<script src="../../lib/zepto/zepto-data.js"></script>
+		<script src="../../lib/zepto/zepto-touch.js"></script>
+		<script src="../../lib/zepto/zepto-fx.js"></script>
+		<script src="../../lib/sui/js/sm.js"></script>
+		<script src="../../js/conf.js"></script>
+		<script src="../../lib/mui/js/mui.js"></script>
+		<script src="../../js/controller/message-index.js"></script>
+	</body>
+
+</html>

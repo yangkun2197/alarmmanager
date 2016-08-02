@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>故障列表</title>
+		<link href="../../lib/sui/css/sm.css" rel="stylesheet" />
+		<link href="../../lib/sui/css/ali-iconfont.css" rel="stylesheet" />
+		<link href="../../css/custom.css" rel="stylesheet" />
+		<link href="../../css/skin-blue.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="page">
+			<header class="bar bar-nav">
+				<a class="mui-action-back icon icon-back pull-left"></a>
+				<h1 class="title">我要报修</h1>
+			</header>
+			<!-- 这里是页面内容区 -->
+			<div class="content" id="page-content">
+				<div class="list-block">
+					<ul>
+						<!-- Text inputs -->
+						<li>
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">位置</div>
+									<div class="item-input">
+										<input type="text" id='txtbuilding' placeholder="请选择位置" />
+									</div> 
+									<div class="item-media"><a href="#"><i class="icon icon-qrcode"></i></a></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">故障</div>
+									<div class="item-input">
+										<input type="text" id='txtfaultType' placeholder="请选择故障" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="align-top">
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">详细情况</div>
+									<div class="item-input">
+										<textarea></textarea>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">上传文件</div>
+									<div class="item-input">
+										<a href="#"><i class="icon icon-pic"></i></a>
+										<a href="#"><i class="icon icon-record"></i></a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="content-block">
+					<a href="#" id="btnadd" class="button button-big button-fill button-warning">提交</a>
+				</div>
+			</div>
+		</div>
+		<script src="../../lib/zepto/zepto.js"></script>
+		<script src="../../lib/sui/js/sm.js"></script>
+		<script src="../../js/conf.js"></script>
+		<script src="../../lib/mui/js/mui.js"></script>
+		<script src="../../lib/other/msm-fault-picker.js"></script>
+		<script src="../../js/controller/fault-add.js"></script>
+	</body>
+</html>
