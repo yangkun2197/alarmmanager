@@ -1,0 +1,42 @@
+body{
+	color: #fff;
+}
+.my-index .content {
+	color: #fff;
+}
+.page{
+	background: #172E5A;
+}
+.list-block ul{
+	background: #57606B;
+}
+.list-block .item-inner:after{
+	background-color: #25375B;
+}
+.list-block.media-list ul:before,.list-block ul{
+	background-color: transparent;
+}
+.list-block ul:after{
+	background-color: #25375B;
+}
+
+.list-block.media-list ul:after{
+	background-color: transparent;
+}
+
+.list-block ul:before{
+	background-color: #25375B;
+}
+
+.my-menu .item-media{
+	width: 1.2rem;
+	
+}
+
+.my-index .item-subtitle{
+	color: #748097;
+}
+.list-block li:active{
+	background-color: #20417D;
+	-webkit-tap-highlight-color:#20417D;
+}

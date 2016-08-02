@@ -1,0 +1,10 @@
+
+
+.bar.bar-header-secondary {
+	padding: 0;
+	height: auto;
+}
+
+.bar.bar-header-secondary .button {
+	top: 0;
+}

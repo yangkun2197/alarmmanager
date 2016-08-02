@@ -1,0 +1,66 @@
+a {
+	color: #E84937;
+}
+
+.bar.bar-nav {
+	background-color: #E84937;
+}
+
+.bar.bar-nav a.icon {
+	color: #fff;
+}
+
+.bar.bar-footer a.icon {
+	color: #888;
+}
+
+ 
+.title {
+	color: #fff;
+}
+
+.bar .search-input input[type="search"] {
+	border: solid 1px #C93728;
+	background-color: #C93728;
+	color: #FFA9A0;
+}
+
+.buttons-tab .button.active {
+	color: #E84937;
+	border-color: #E84937;
+	z-index: 100;
+}
+
+.buttons-row .button {
+	border-color: #E84937;
+	color: #E84937;
+}
+
+.buttons-row .button.active {
+	background-color: #E84937;
+}
+
+
+/* all */
+
+input[type="search"]:-webkit-input-placeholder {
+	color: #FFA9A0;
+}
+
+::-moz-placeholder {
+	color: #FFA9A0;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+	color: #FFA9A0;
+}
+
+
+/* ie */
+
+input[type="search"]:-moz-placeholder {
+	color: #FFA9A0;
+}

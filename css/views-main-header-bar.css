@@ -1,0 +1,13 @@
+
+.bar .search-input {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	margin: 0 2rem 0 2rem;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.bar .search-input input[type="search"] {
+	-webkit-appearance: none;
+}

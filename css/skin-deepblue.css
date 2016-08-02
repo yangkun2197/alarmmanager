@@ -1,0 +1,25 @@
+.bar{
+	background-color:#3F51B5 ;
+}
+.bar a.icon {
+	color: #fff; 
+}
+.bar .search-input input[type="search"]{ 
+	border:solid 1px #32409F;
+	background-color: #32409F;
+	color: #FFA9A0;
+}
+/* all */
+input[type="search"]:-webkit-input-placeholder { color:#FFA9A0; }
+::-moz-placeholder { color:#FFA9A0; } /* firefox 19+ */
+:-ms-input-placeholder { color:#FFA9A0; } /* ie */
+input[type="search"]:-moz-placeholder { color:#FFA9A0; }
+
+ 
+.footer-bar .card-footer a{
+	color:#57606B;
+}
+
+.footer-bar .card-footer a.active{
+	color: #3F51B5;
+}

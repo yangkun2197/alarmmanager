@@ -1,0 +1,10 @@
+  #map {
+            width: 100%;
+            position: fixed;
+            top: 44px;
+            bottom: 0px;
+            line-height: 200px;
+            text-align: center;
+            background: #FFFFFF;
+            z-index: 998;
+        }

@@ -1,0 +1,170 @@
+/*----------------------------------------------------------------------------------- */
+
+
+/*  Chat widget */
+
+
+/*----------------------------------------------------------------------------------- */
+.page{
+	
+	background-color: white;
+}
+.content {
+				bottom: 2.5rem;
+			}
+			 
+.chat {
+	padding-bottom: 2.6rem;
+}
+
+.chat .widget-content {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	background-color: white;
+}
+ 
+.chat .widget-content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.chat .widget-content ul li {
+	margin-bottom: 0.7rem;
+	padding-left: 2rem;
+	padding-right: 4rem;
+	position: relative;
+}
+
+.chat .widget-content ul li:last-child {
+	margin-bottom: 0;
+}
+
+.chat .widget-content ul li img {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	border-radius: 50%;
+}
+.chat .widget-content ul li .message img{
+	position: relative;
+	width: 80%;
+	height: auto;
+	border-radius:0;
+	
+}
+.chat .widget-content ul li .bubble {
+	padding: 0.6rem 0.75rem;
+	background: #e5e5ea;
+	border-radius: 0.75rem;
+	position: relative;
+}
+
+.chat .widget-content ul li .bubble:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+	background: url("../images/chat/chat-left.png") left top no-repeat;
+	width: 13px;
+	height: 13px;
+	display: block;
+}
+
+@media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6 / 2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+	.chat .widget-content ul li .bubble:after {
+		background-image: url("../images/chat/chat-left@2x.png");
+		background-size: 0.65rem 0.65rem;
+	}
+}
+
+.chat .widget-content ul li .bubble .user-name {
+	font-size: 1.1rem;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.chat .widget-content ul li .bubble p.message {
+	margin: 0.1rem;
+	margin-bottom: 0.2rem;
+	color: #333333;
+	font-size: 0.8rem;
+	
+	
+	-moz-user-select:auto;
+	-webkit-user-select: auto;
+}
+
+.chat .widget-content ul li .bubble .time {
+	font-size: 0.6rem;
+	color: #888888;
+	margin-bottom: 0;
+	margin-left: 0.1rem;
+}
+
+.chat .widget-content ul li.current-user {
+	padding-right: 2rem;
+	padding-left: 4rem;
+}
+
+.chat .widget-content ul li.current-user img {
+	right: 0;
+	left: auto;
+}
+
+.chat .widget-content ul li.current-user .bubble {
+	background: #347AEA;
+}
+
+.chat .widget-content ul li.current-user .bubble:after {
+	background: url("../images/chat/chat-right-blue.png") left top no-repeat;
+	left: auto;
+	right: -0.3rem;
+}
+
+@media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6 / 2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+	.chat .widget-content ul li.current-user .bubble:after {
+		background-image: url("../images/chat/chat-right-blue@2x.png");
+		background-size: 13px 13px;
+	}
+}
+
+.chat .widget-content ul li.current-user p,
+.chat .widget-content ul li.current-user a {
+	color: white !important;
+}
+
+.chat .widget-content ul li.current-user .time {
+	opacity: 0.75;
+}
+
+.post-message input[type="submit"] {
+	position: absolute;
+	top: 0.6rem;
+	right: 10px;
+	margin: 0;
+	border: 0;
+	background: transparent;
+	color: #007aff;
+	font-weight: 600;
+	font-size: 0.7rem;
+}
+ 
+.bar-footer input{
+	border: 0;
+	width: 75%;
+	height: 1.45rem;
+	margin: 0.3rem 0;
+	padding-left: 0.5rem;
+	background-color: #f7f7f8;
+}
+.bar-footer a{
+	margin-left: 0.05rem;
+}

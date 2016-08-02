@@ -1,0 +1,68 @@
+/*消息中心*/
+.messages.list-block{
+    margin: 0.75rem 0 1.75rem 0;
+}
+
+.messages.list-block .item-content{
+    padding-right: 0.75rem;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.messages.list-block .item-media {
+    max-height: 3rem;
+    overflow: hidden;
+    margin: 0.45rem 0;
+}
+
+.messages.list-block .item-subtitle {
+    white-space: normal;
+}
+.messages.list-block .item-text{
+    color: #A5B1B1;
+    font-size: .6rem;
+    height: auto;
+}
+
+
+.sui-swipe-list{
+    overflow: hidden;
+}
+.sui-swipe-li {
+    -webkit-transform: translateX(0px);
+}
+.sui-swipe-right {
+    position: absolute;
+    top: 0;
+    right: -80px;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    height: 100%;
+    z-index: 88;
+}
+.swipe-remove {
+    height: 100%;
+    color: #fff;
+    background-color: #f6383a;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-transition: -webkit-transform 0ms ease;
+    transition: transform 0ms ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-media img{
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+}

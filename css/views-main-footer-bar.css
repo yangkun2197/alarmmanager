@@ -1,0 +1,21 @@
+.content{
+	
+}
+
+.footer-bar .card{
+	margin: 0px;
+	border: solid 1px #C0C0C0;
+	border-radius: 2px;
+}
+.hairlines .footer-bar .card {
+	border: solid 0.5px #C0C0C0;
+}
+ 
+.footer-bar .card-footer a{
+	color:#71717b;
+}
+
+.footer-bar .card-footer a:active,
+.footer-bar .card-footer a.active{
+	color: #347AEA;
+}

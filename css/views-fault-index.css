@@ -1,0 +1,29 @@
+.bar.bar-header-secondary {
+	padding: 0;
+	height: auto;
+}
+
+.bar.bar-header-secondary .button {
+	top: 0;
+}
+
+.list-block .item-text {
+	height: auto;
+}
+
+.add-fault {
+	position: absolute;
+	bottom: 0.75rem;
+	right: 0.75rem;
+	background-color: #FAA959;
+	color: #FFF;
+	display: block;
+	font-size: 1.1rem;
+	width: 2.2rem;
+	height: 2.2rem;
+	text-align: center;
+	line-height: 2.0rem;
+	border-radius: 50%;
+	box-shadow: 0 6px 9px rgba(0, 0, 0, .15);
+	z-index: 50;
+}

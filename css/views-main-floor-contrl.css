@@ -1,0 +1,26 @@
+body,.page{
+	overflow: hidden;
+	
+}
+.page{
+	/*border: solid 0.5px #C0C0C0;*/
+background: #fff;}
+.noUi-handle:before,
+.noUi-handle:after {
+	background: none; 
+}
+.noUi-vertical .noUi-handle{
+	height: 28px;
+}
+#slider {
+	margin-top: 1rem;
+	height: 80px;
+}
+.noUi-handle {
+	border: 1px solid #E84937;
+	border-radius: 3px;
+	background: #E84937;
+	cursor: default;
+	color: #fff;
+	box-shadow: none;
+}
